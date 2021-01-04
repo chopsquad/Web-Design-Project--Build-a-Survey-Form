@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft Survery</title>
+</head>
+<main class="main">
+    <h1 id="title"> World of Warcraft Survey Form</h1>
+    <p id="description">Thanks for taking your time and filling out this survey!</p>
+</main>
+<body>
+    <form id="survey-form">
+        <label id="name-label" for= "name"> Name </label><br>
+        <input 
+        type="text" 
+        id="name" 
+        placeholder="Enter your name here" 
+        name="name" 
+        required><br>
+        <label id="email-label" for="email">Email</label><br>
+        <input 
+        type="email" 
+        id="email" 
+        placeholder="Enter your email here" 
+        email="email" 
+        required><br>
+        <label id="number-label" for="number">Age</label><br>
+        <input 
+        type="number" 
+        id="number" 
+        placeholder="Enter your age here" 
+        age="number"
+        min="1"
+        max="100"><br>
+        <label id="dropdown-label" for= "wow-expansions">Choose you favorite expansion</label>
+        <select 
+        name="wow-expansions" 
+        id="dropdown">
+            <option value="" disabled slected hidden>Choose your favorite expansion</option>
+            <option value="Classic">Classic</option>
+            <option value="Burning Crusade">Burning Crusade</option>
+            <option value="Wrath of the Litch King">Wrath of the Litch King</option>
+            <option value="Cataclysm">Cataclysm</option>
+            <option value="Mists of Pandaria">Mists of Pandaria</option>
+            <option value="Warlords of Draenor">Warlords of Draenor</option>
+            <option value="Legion">Legion</option>
+            <option value="Battle for Azeroth">Battle for Azeroth</option>
+            <option value="Shadowlands">Shadowlands</option> 
+        </select>
+        <label id="faction" for="faction">Choose your Faction<br>
+            <input type="radio" value="1" name="faction">Hord
+            <input type="radio" value="2" name="faction">Alliance
+        </label>
+        <label id="years-played" for="years-played">How long have you been playing?<br>
+            <input type="checkbox" name="years-played" value="0"> >1 year
+            <input type="checkbox" name="years-played" value="1"> 1 year
+            <input type="checkbox" name="years-played" value="2"> 2 years
+            <input type="checkbox" name="years-played" value="3"> 3 years
+            <input type="checkbox" name="years-played" value="4"> 4 years
+            <input type="checkbox" name="years-played" value="5"> 5 years
+            <input type="checkbox" name="years-played" value="6"> 6 years
+            <input type="checkbox" name="years-played" value="7"> 7 yeara
+            <input type="checkbox" name="years-played" value="8"> 8+ years    
+        </label>
+        <label for="info">Additional info or comments</label>
+        <textarea id="info" name="info" rows="4" cols="10" >
+            
+        </textarea>
+        <input id="submit" type="submit" value="Submit">
+
+        
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+
+</html>

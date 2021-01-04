@@ -1,0 +1,32 @@
+.main{
+    background-color:lightgray;
+    opacity:70%;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+
+}
+body{
+    background-image: url('https://cdn3.dualshockers.com/wp-content/uploads/2013/12/WoW-Boss-Compilation-Wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title{
+    color:black;
+    text-align: center;
+}
+#description{
+    color: black;
+    text-align: center;
+}
+#survey-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    opacity: 70%;
+    margin: 30px 
+    
+
+}
